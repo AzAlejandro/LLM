@@ -1,0 +1,13 @@
+openai>=1.75.0
+pydantic>=2.11.0
+pydantic-settings>=2.8.0
+python-dotenv>=1.1.0
+httpx>=0.28.0
+chromadb>=0.5.23
+gradio>=5.0.0
+playwright>=1.43.0
+plotly>=5.24.0
+scikit-learn>=1.6.0
+ipykernel>=6.29.0
+notebook>=7.3.0
+pytest>=8.3.0
