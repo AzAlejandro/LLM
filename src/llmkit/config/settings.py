@@ -1,9 +1,9 @@
 """Centralized runtime settings for the toolkit.
 
-This module is the only place in Release 01 that reads environment variables.
+This module is the only place that reads environment variables directly.
 Everything else imports ``settings`` or receives values from objects created by
-the factory. Keeping configuration here prevents notebooks and clients from
-scattering ``os.getenv`` calls across the project.
+factories and helpers. Keeping configuration here prevents notebooks and
+clients from scattering ``os.getenv`` calls across the project.
 """
 
 from functools import lru_cache

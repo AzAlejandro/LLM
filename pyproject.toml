@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "llmkit"
 version = "0.1.0"
-description = "Minimal local LLM toolkit for clients, prompts, and structured outputs."
+description = "Local LLM toolkit for prompts, structured outputs, memory, and base RAG workflows."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

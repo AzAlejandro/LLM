@@ -1,9 +1,12 @@
-"""Release 01 package for the local LLM toolkit.
+"""Local LLM toolkit built incrementally through notebook-driven releases.
 
-The package exposes a small reusable foundation for notebooks: centralized
-settings, provider-neutral LLM clients, prompt templates, a prompt registry, and
-Pydantic schemas for structured outputs. Later releases should build on this
-surface instead of duplicating setup code in notebooks.
+The package currently exposes reusable foundations for:
+
+- provider-backed LLM clients
+- prompt templates and registries
+- structured outputs with Pydantic
+- SQLite-backed conversational memory
+- base RAG helpers for local document retrieval
 """
 
 __all__ = ["__version__"]
